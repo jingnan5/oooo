@@ -42,7 +42,7 @@ public class Ti1 {
 	  if (count == mylist.length) {
 		  count = 0;
 	  }
-	  
+	int  a = 1;
   }
   private static int[][] mylist = {
 		  {1,2,3,5},
