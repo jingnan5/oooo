@@ -17,6 +17,7 @@ public class paper {
 		printPdf("C:");	  
 		 }
 	}
+//以下可以忽略不计，这个本来要写一个打印pdf的function，现在处于闲置状态，写不出来
 	public static boolean printPdf(String pdfPath){  
         try{  
             Runtime.getRuntime().exec("cmd.exe /C start acrord32 /P /h " + pdfPath);  
